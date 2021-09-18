@@ -2,7 +2,7 @@
 
 set -C
 
-php artisan sail:install --with=mariadb,redis,mailhog,selenium
+php artisan sail:install --with=mariadb,redis
 
 npm install -D prettier @prettier/plugin-php
 
