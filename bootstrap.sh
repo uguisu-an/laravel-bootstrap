@@ -2,6 +2,8 @@
 
 set -C
 
+git init
+
 php artisan sail:install --with=mariadb,redis
 
 npm install -D prettier @prettier/plugin-php
